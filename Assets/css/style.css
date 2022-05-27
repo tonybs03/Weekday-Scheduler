@@ -1,0 +1,118 @@
+/* REPEATED COLORS FOR QUICK RECALL */
+:root {
+  --pink: #dea5a4;
+  --pinkfonts: #fddddd;
+  --lightgreen: #C6D5B1;
+  --gray: #4a4e53;
+  --lightgray: #a37d7d;
+  --tan: #d8a47f;
+  --lavender: #957DAD;
+}
+
+body {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 51px;
+  line-height: 1.2;
+  background-color: var(--pink);
+  align-items: center;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: var(--pink);
+  color: var(--pinkfonts);
+  border-radius: 0px;
+  border-bottom: 10px solid var(--gray);
+}
+
+.container {
+  margin-top: 81px !important;
+  text-align: center;
+  background-color: var(--pink);
+}
+
+.row {
+  height: 80px;
+}
+
+.block {
+  text-align: center;
+  border-radius: 0px;
+  background-color: var(--pink);
+}
+
+.hour {
+  background-color: var(--pink);
+  color: var(--gray);
+  border-top: 3px dashed var(--gray);
+}
+
+textarea {
+  border: none;
+  resize: none;
+  color: var(--gray);
+  border-left: 3px dashed var(--gray);
+  border-bottom: 3px dashed var(--gray);
+  padding: 10px;
+  font-size: 24px;
+  height: 141px;
+}
+
+textarea:focus {
+  outline: none; 
+  -webkit-box-shadow: none;
+  box-shadow: 0 0 30px var(--lightgreen);
+  -moz-box-shadow: none; 
+} 
+
+.tasks {
+  white-space: pre-line;
+  background-color: var(--lightgray);
+}
+
+.saveBtn {
+  background-color: var(--lightgreen);
+  color: var(--pinkfonts);
+  border-bottom: 3px dashed var(--gray);
+  font-size: 36px;
+}
+
+.saveBtn:hover {
+  background-color: #fddddd;
+}
+
+.resetBtn {
+  background-color: var(--lightgreen);
+  color: var(--pinkfonts);
+  font-size: 36px;
+  margin-top: 100px !important;
+  width: 300px;
+  display: block;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.emptyspace {
+  height: 69px;
+}
+
+.past {
+  background-color: var(--lightgray);
+  color: var(--gray);
+}
+
+.present {
+  background-color: thistle;
+  color: white;
+}
+
+.presenttime {
+  color: thistle;
+}
+
+.future {
+  background-color: var(--lavender);
+  color: white;
+}
+
+
